@@ -1,0 +1,63 @@
+<html>
+
+<style>
+    @font-face {
+        font-family: "Lato";
+        src: url("font/Lato-Thin.woff") format('woff');
+    }
+
+    body {
+        font-family: "Lato";
+        font-weight: 300;
+        text-align: center;
+        color: #ccc;
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+        color: #6495ED;
+    }
+
+    a:hover {
+        color: lime;
+    }
+
+    .container {
+        max-width: 100%;
+        vertical-align: middle;
+        margin: 150px auto;
+        padding: 50px 100px 10px 100px;
+        border: 2px solid #ccc;
+        border-radius: 3px;
+        width: 80%;
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .index {
+        font-size: 40px;
+        text-align: left;
+        font-weight: 100;
+        line-height: 1.4em;
+    }
+    .copy{
+        font-size: 12px;
+        display:block;
+        text-align: right;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="index">
+            <!-- li><a href="index.html" onmouseover="javascript:event.target.port=4200" target="_blank"> Frontend <span style="font-size:18px"> Angular 2 App</span> </a> </li -->
+            <li><a href="webui/index.html" target="_blank"> Frontend <span style="font-size:18px"> Angular 2 App</span> </a> </li>
+            <li><a href="swagger-ui.html"  target="_blank"> Live REST Document <span style="font-size:18px"> with Try-out links </span> </a> </li>
+            <li><a href="redoc/index.html" target="_blank"> Static REST Document <span style="font-size:18px"> Static Document</span> </a> </li>
+            <span class="copy">InfoMud</span>
+        </div>
+    </div>
+</body>
+
+</html>
