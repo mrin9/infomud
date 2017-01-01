@@ -66,3 +66,8 @@ after you get the authentication token you must provide this in the header for a
 ```bash
 curl -X GET --header 'Accept: application/json' --header 'Authorization: [replace this with token ]' 'http://localhost:9119/version'
 ```
+
+**Deploy in Heroku** 
+- Our Heroku App is connected to github source which makes it easy to deploy directly from git hub
+- Navigate to [deploy section of infomud app](https://dashboard.heroku.com/apps/infomud/deploy/github)
+- scroll to the bottom, under the section Manual Deploy, select the Master branch and click on 'Deploy Branch'
